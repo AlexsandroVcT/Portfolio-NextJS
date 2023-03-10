@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "hostinger-react",
+  "homepage": "http://alexsandro.devproject.com.br",
+  "version": "1.0.0",
+  "description": "my react application",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "eslint-config-next": "^13.2.4",
+    "next": "^13.2.4",
+    "ngrok": "^4.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "styled-components": "^5.3.8",
+    "styled-normalize": "^8.0.7"
+  },
+  "devDependencies": {
+    "next-optimized-images": "^2.6.2",
+    "webpack": "^5.76.0"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}
