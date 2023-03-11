@@ -30,7 +30,7 @@ export default function Footer() {
               href="https://api.whatsapp.com/send?phone=5582981949926&text=%20Oi Alexsandro,%20%20Tudo bem? vim através do seu portfólio"
               target="_blank"
             >
-              Whatsapp
+              WhatsApp
             </LinkItem>
           </LinkColumn>
           <LinkColumn>

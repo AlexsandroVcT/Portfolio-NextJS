@@ -67,7 +67,7 @@ export const TimeLineData = [
     text: "Pawn uma linguagem de programação usada para desenvolver mods e scripts para o popular jogo GTA San Andreas.",
   },
   {
-    year: 2022,
+    year: 2020,
     text: "Acabo de concluir uma formação em informática avançada, onde adquiri um sólido conhecimento em programação",
   },
   {
