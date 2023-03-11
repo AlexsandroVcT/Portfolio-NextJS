@@ -26,7 +26,10 @@ export default function Footer() {
         <LinkList>
           <LinkColumn>
             <LinkTitle>Chat</LinkTitle>
-            <LinkItem href="https://api.whatsapp.com/send?phone=5582981949926&text=%20Oi Alexsandro,%20%20Tudo bem? vim através do seu portfólio">
+            <LinkItem
+              href="https://api.whatsapp.com/send?phone=5582981949926&text=%20Oi Alexsandro,%20%20Tudo bem? vim através do seu portfólio"
+              target="_blank"
+            >
               Whatsapp
             </LinkItem>
           </LinkColumn>
