@@ -5,7 +5,7 @@ import {
   AiFillLinkedin,
   AiFillTwitterCircle,
 } from "react-icons/ai";
-import { Link } from "../../styles/GlobalComponents";
+import { Link, Section } from "../../styles/GlobalComponents";
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -22,20 +22,22 @@ import {
 export default function Footer() {
   return (
     <FooterWrapper>
-      <LinkList>
-        <LinkColumn>
-          <LinkTitle>Chat</LinkTitle>
-          <LinkItem href="https://api.whatsapp.com/send?phone=5582981949926&text=%20Oi Alexsandro,%20%20Tudo bem? vim através do seu portfólio">
-            Whatsapp
-          </LinkItem>
-        </LinkColumn>
-        <LinkColumn>
-          <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:alex@devproject.com.br">
-            alex@devproject.com.br
-          </LinkItem>
-        </LinkColumn>
-      </LinkList>
+      <Section id="footer">
+        <LinkList>
+          <LinkColumn>
+            <LinkTitle>Chat</LinkTitle>
+            <LinkItem href="https://api.whatsapp.com/send?phone=5582981949926&text=%20Oi Alexsandro,%20%20Tudo bem? vim através do seu portfólio">
+              Whatsapp
+            </LinkItem>
+          </LinkColumn>
+          <LinkColumn>
+            <LinkTitle>Email</LinkTitle>
+            <LinkItem href="mailto:alex@devproject.com.br">
+              alex@devproject.com.br
+            </LinkItem>
+          </LinkColumn>
+        </LinkList>
+      </Section>
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>

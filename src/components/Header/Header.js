@@ -34,8 +34,8 @@ export default function Header() {
           </Link>
         </li>
         <li>
-          <Link href="Footer">
-            <P>Blog</P>
+          <Link href="#footer">
+            <P>Contato</P>
           </Link>
         </li>
       </Div2>

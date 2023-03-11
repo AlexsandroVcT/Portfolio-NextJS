@@ -12,6 +12,10 @@ export const Container = styled.div`
     z-index: 999;
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
+    font-size: 25px;
+    @media ${(props) => props.theme.breakpoints.sm} {
+      font-size: 35px;
+    }
   }
 
   .scroll-to-top-button.show {

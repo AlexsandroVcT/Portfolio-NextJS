@@ -19,9 +19,9 @@ export default function NavDropDown(props) {
           <AiFillPhone />
         </DropDownIcon>
         <DropDownTextContainer>
-          <DropDownItemTitle>Phone</DropDownItemTitle>
+          <DropDownItemTitle>Telefone</DropDownItemTitle>
           <DropDownItemDesc>
-            Let's get together and have a chat?'
+            Vamos nos reunir e bater um papo?'
           </DropDownItemDesc>
         </DropDownTextContainer>
       </DropDownItem>
@@ -32,7 +32,8 @@ export default function NavDropDown(props) {
         <DropDownTextContainer>
           <DropDownItemTitle>Email</DropDownItemTitle>
           <DropDownItemDesc>
-            If you want to talk jus send a message and I'll get back
+            Envie um email que irei ta entrando em contato o mais rapido
+            possivel
           </DropDownItemDesc>
         </DropDownTextContainer>
       </DropDownItem>
@@ -41,8 +42,8 @@ export default function NavDropDown(props) {
           <FaLocationArrow />
         </DropDownIcon>
         <DropDownTextContainer>
-          <DropDownItemTitle>Address</DropDownItemTitle>
-          <DropDownItemDesc>1405, Angelus Dr, Florissant. Mo</DropDownItemDesc>
+          <DropDownItemTitle>Endereço</DropDownItemTitle>
+          <DropDownItemDesc>Maceio-AL</DropDownItemDesc>
         </DropDownTextContainer>
       </DropDownItem>
     </DropDownContainer>
