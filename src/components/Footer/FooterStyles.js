@@ -87,13 +87,13 @@ export const Slogan = styled.p`
   padding-top: 1rem;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    font-size: 17px;
+    font-size: 10px;
     line-height: 28px;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     line-height: 22px;
-    font-size: 15px;
+    font-size: 13px;
     min-width: 100px;
   }
 `;

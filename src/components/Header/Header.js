@@ -6,15 +6,7 @@ import {
   AiFillLinkedin,
   AiOutlineQrcode,
 } from "react-icons/ai";
-import {
-  Container,
-  Div1,
-  Div2,
-  Div3,
-  NavLink,
-  P,
-  SocialIcons,
-} from "./HeaderStyles";
+import { Container, Div1, Div2, Div3, P, SocialIcons } from "./HeaderStyles";
 
 // Error de tags corrigido
 export default function Header() {
