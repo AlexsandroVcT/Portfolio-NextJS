@@ -8,6 +8,8 @@ import { Layout } from "../layout/Layout";
 import { Section } from "../styles/GlobalComponents";
 import { ScrollToTopButton } from "../styles/GlobalComponents/ScrollToTopButton";
 
+import { Analytics } from "@vercel/analytics/react";
+
 export default function Home() {
   return (
     <Layout>
@@ -20,6 +22,7 @@ export default function Home() {
       <Timeline />
       <Acomplishments />
       <ScrollToTopButton />
+      <Analytics />
     </Layout>
   );
 }
